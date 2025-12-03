@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-     <link
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
     />
@@ -31,18 +31,18 @@
         position: relative;
       }
 
-      @media (max-width:768px){
-        .background{
+      @media (max-width: 768px) {
+        .background {
           background-attachment: scroll;
         }
       }
-       .Nav-p {
+      .Nav-p {
         width: 100%;
         position: fixed;
         top: 0;
         z-index: 1;
       }
-.carousel-indicators {
+      .carousel-indicators {
         position: static;
         margin-top: 1rem;
       }
@@ -53,11 +53,10 @@
       .carousel-indicators [data-bs-target] {
         background-color: rgb(200, 200, 200);
       }
-      
-      </style>
-</head>
-<body>
-     <!--header-section-->
+    </style>
+  </head>
+  <body>
+    <!--header-section-->
 
     <header id="home" class="background text-center mb-5">
       <!--navbar-section-->
@@ -104,13 +103,10 @@
                       href="#"
                       role="button"
                       class="dropdown-item dropdown-toggle"
-                      
                       data-bs-toggle="dropdown"
-                      
-                      
                       >More Links</a
                     >
-                    <ul class="dropdown-menu dropdown-menu-end" >
+                    <ul class="dropdown-menu dropdown-menu-end">
                       <li><a href="#" class="dropdown-item">Menu 1</a></li>
                       <li><a href="#" class="dropdown-item">Menu 2</a></li>
                       <li><a href="#" class="dropdown-item">Menu 3</a></li>
@@ -206,9 +202,109 @@
       </div>
     </div>
     <!--header-section-end-->
+    <!--  Amortization Computation-section-->
+    <div class="container">
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-4">
+          <div>
+            <img
+              src="./images/001-wallet.svg"
+              alt=""
+              width="90px"
+              class="img-fluid mx-auto d-block"
+            />
+            <h4 class="pt-4 text-center">Money Savings</h4>
+            <p class="text-center text-secondary">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <img
+              src="./images/004-cart.svg"
+              alt=""
+              width="90px"
+              class="img-fluid mx-auto d-block"
+            />
+            <h4 class="pt-4 text-center">Online Shoppings</h4>
+            <p class="text-center text-secondary">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <img
+              src="./images/006-credit-card.svg"
+              alt=""
+              width="90px"
+              class="img-fluid mx-auto d-block"
+            />
+            <h4 class="pt-4 text-center">Credit / Debit Cards</h4>
+            <p class="text-center text-secondary">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+          <div class="mb-5">
+            <img src="./images/about_2.jpg.webp" alt="" class="img-fluid" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="px-5">
+            <h3 class="pb-3">Amortization Computation</h3>
+            <p class="text-secondary my-4">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia.
+            </p>
+            <p class="text-secondary">
+              <span class="text-success pe-3"
+                ><i class="fa-solid fa-check"></i
+              ></span>
+              Officia quaerat eaque neque
+            </p>
+            <p class="text-secondary">
+              <span class="text-success pe-3"
+                ><i class="fa-solid fa-check"></i
+              ></span>
+              Lorem ipsum dolor sit amet
+            </p>
+            <p class="text-secondary">
+              <span class="text-success pe-3"
+                ><i class="fa-solid fa-check"></i
+              ></span>
+              Consectetur adipisicing elit
+            </p>
+          </div>
 
-     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+          <div class="input-group px-5 mt-5 d-flex justify-content-between">
+            <input
+              type="text"
+              placeholder="Enter your Email"
+              class="form-control rounded-pill"
+            />
+            <button
+              type="submit"
+              class="btn btn-warning btn-lg rounded-pill text-white mx-1"
+            >
+              Submit Email
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Amortization Computation-section-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
     <script src="./enable-stuff.js"></script>
-</body>
+  </body>
 </html>
